@@ -20,10 +20,17 @@ h2 {
 
 h3 {
   font-size: 1rem;
+  margin: 0;
+}
+
+.author {
+  font-style: italic;
+  font-size: .875rem;
 }
 
 p {
-  font-size: .875rem;
+  font-size: 1rem;
+  margin: 0 auto 1.5rem;
 }
 
 section {
@@ -34,10 +41,20 @@ section {
 .btn-small {
   text-decoration: none;
   color: #fff;
+  background-color: #999;
+  padding: .75rem;
+  border-radius: 4px;
 }
 
 .btn-small:hover {
   background-color: #333;
+}
+
+.btn {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .btn:first-child {

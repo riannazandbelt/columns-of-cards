@@ -11,6 +11,7 @@ html {
 body {
   font-style: normal;
   margin: 0;
+  background-color: f2f2f2;
 }
 
 img {
@@ -70,17 +71,17 @@ section {
 }
 
 .btn:first-child {
-  background-color: #f2f2f2;
-}
-
-.btn:nth-child(2) {
   background-color: #e2e2e2;
 }
 
-.btn:nth-child(3) {
+.btn:nth-child(2) {
   background-color: #ccc;
 }
 
-.btn:last-child {
+.btn:nth-child(3) {
   background-color: #aaa;
+}
+
+.btn:last-child {
+  background-color: #999;
 }

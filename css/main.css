@@ -20,7 +20,7 @@ h2 {
 
 h3 {
   font-size: 1rem;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .author {
@@ -41,13 +41,14 @@ section {
 .btn-small {
   text-decoration: none;
   color: #fff;
-  background-color: #999;
+  background-color: #333;
   padding: .75rem;
   border-radius: 4px;
+  margin: 0 0 1.5rem;
 }
 
 .btn-small:hover {
-  background-color: #333;
+  background-color: #000;
 }
 
 .btn {
@@ -55,6 +56,11 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: .75rem;
+}
+
+.btn p {
+  flex-grow: 1;
 }
 
 .btn:first-child {

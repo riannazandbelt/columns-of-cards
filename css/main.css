@@ -15,9 +15,13 @@ body {
 }
 
 img {
-  width: 100px;
-  align-self: center;
+  width: 100%;
   display: block;
+}
+
+.btn-main img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
 }
 
 h2 {
@@ -68,6 +72,7 @@ section {
   justify-content: space-between;
   padding: .75rem;
   padding-bottom: .25rem;
+  border-right: 1px solid #333;
 }
 
 .btn-main p {
@@ -76,6 +81,7 @@ section {
 
 .btn-main:first-child {
   background-color: #e2e2e2;
+  border-left: 1px solid #333;
 }
 
 .btn-main:nth-child(2) {

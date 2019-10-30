@@ -47,6 +47,9 @@ section {
 
 .btn-small {
   text-decoration: none;
+}
+
+.btn {
   color: #fff;
   background-color: #333;
   padding: .5rem;
@@ -54,11 +57,11 @@ section {
   margin: 0 0 1.5rem;
 }
 
-.btn-small:hover {
+.btn:hover {
   background-color: #000;
 }
 
-.btn {
+.btn-main {
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -67,22 +70,22 @@ section {
   padding-bottom: .25rem;
 }
 
-.btn p {
+.btn-main p {
   flex-grow: 1;
 }
 
-.btn:first-child {
+.btn-main:first-child {
   background-color: #e2e2e2;
 }
 
-.btn:nth-child(2) {
+.btn-main:nth-child(2) {
   background-color: #ccc;
 }
 
-.btn:nth-child(3) {
+.btn-main:nth-child(3) {
   background-color: #aaa;
 }
 
-.btn:last-child {
+.btn-main:last-child {
   background-color: #999;
 }
